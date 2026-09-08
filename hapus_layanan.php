@@ -1,0 +1,1 @@
+<?php require "config.php"; $id=(int)$_GET['id']; mysqli_query($conn,"DELETE FROM layanan WHERE id=$id"); header("Location: layanan.php"); exit; ?>
